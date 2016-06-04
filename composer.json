@@ -1,0 +1,19 @@
+{    
+    "name": "Foodora Test",
+    "description": "Delivering food company",
+    "authors": [
+        {
+            "name": "Tiago",
+            "email": "tiago.asp.net@gmail.com"
+        }
+    ],  
+    "autoload": {
+        "psr-0": { "Application\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.5.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    }
+}
